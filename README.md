@@ -1,39 +1,38 @@
 # React-Tic-Tac-Toe
 An interactive Tic-Tac-Toe game built with React and TypeScript, featuring move history tracking, time travel, and dynamic UI highlights.
 
-Features
-Play Tic-Tac-Toe: Classic 3x3 game for two players (X and O).
+# Features
 
-Move History: Tracks every move with the exact board location (row, col).
+- Play Tic-Tac-Toe: Classic 3x3 game for two players (X and O).
 
-Time Travel: Jump to any previous move to view the game state at that point.
+- Move History: Tracks every move with the exact board location (row, col).
 
-Winning Highlight: The winning combination is visually highlighted when a player wins.
+- Time Travel: Jump to any previous move to view the game state at that point.
 
-Draw Detection: Detects draw situations when all squares are filled with no winner.
+- Winning Highlight: The winning combination is visually highlighted when a player wins.
 
-Toggle Move Order: Sort the move history in ascending or descending order for easy navigation.
+- Draw Detection: Detects draw situations when all squares are filled with no winner.
 
-Current Move Indicator: Clearly shows which move is currently being viewed.
+- Toggle Move Order: Sort the move history in ascending or descending order for easy navigation.
 
-Technical Details
+- Current Move Indicator: Clearly shows which move is currently being viewed.
 
-Built with React & TypeScript using functional components and hooks.
+# Technical Details
 
-State Management: Uses useState to manage game history and current move.
+  - Built with React & TypeScript using functional components and hooks.
 
-Immutability: Each move produces a new board state, preserving history for time travel.
+  - State Management: Uses useState to manage game history and current move.
 
-Responsive UI: Dynamic rendering of squares, moves list, and game status.
+  - Immutability: Each move produces a new board state, preserving history for time travel.
 
-Extensible: Easily add features like AI opponents, board size variations, or animations.
+  - Responsive UI: Dynamic rendering of squares, moves list, and game status.
 
-How to Use
+# How to Use
 
-Click on a square to place X or O.
+  1. Click on a square to place X or O.
 
-Check the game status above the board (Next player, Winner, or Draw).
+  2. Check the game status above the board (Next player, Winner, or Draw).
 
-Use the move history list to jump to any previous move.
+  3. Use the move history list to jump to any previous move.
 
-Toggle move history order with the "Sort Ascending/Descending" button.
+  4. Toggle move history order with the "Sort Ascending/Descending" button.
